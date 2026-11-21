@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA VI Trophy Guide — Leonida Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+  <h1>Leonida Trophy Guide</h1>
+  <p class="sub">The best guide and tracker for every GTA VI trophy — checklist, roadmap, missable flags, and a guide for each trophy, in our own words, with sources. Works offline.</p>
+  <div class="progress-wrap">
+    <div class="progress-text"><span id="progress">0 of 55 earned</span><span id="pct">0%</span></div>
+    <div class="bar"><div id="barfill"></div></div>
+    <p id="bygrade" class="bygrade"></p>
+  </div>
+</header>
+<main>
+<section class="roadmap" id="roadmap">
+  <h2>Roadmap to the Platinum</h2>
+  <ol id="roadmap-list"></ol>
+  <p class="note"><strong>Missable?</strong> No story trophy is missable by playing through. The 17 missable trophies are one-off moments — do them when the chance appears. Everything else can be finished in free roam after the story.</p>
+</section>
+<section class="controls">
+  <label>Search <input id="search" type="search" placeholder="Search trophy name…"></label>
+  <label>Grade <select id="grade"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+  <label>Kind <select id="kind"><option value="all">All kinds</option><option value="story">Story</option><option value="collectible">Collectibles</option><option value="activity">Activities</option></select></label>
+  <label class="check"><input id="missable" type="checkbox"> Missable only</label>
+  <label class="check"><input id="spoiler" type="checkbox"> Hide story spoilers</label>
+  <button id="export" type="button">Export progress</button>
+  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+  <button id="reset" type="button">Reset</button>
+</section>
+<p id="count" class="count"></p>
+<div id="cards" class="cards"></div>
+<footer>
+  <h2>Sources</h2>
+  <p>Every trophy name, official description and grade is from the official 55-trophy list (app/data/trophies.json, 2026-11-18). Each guide is written in our own words from that description. Community guides consulted for structure only, text not copied: PSNProfiles — GTA VI trophy guide; PowerPyx — GTA 6 trophy guide. No Rockstar logo or official artwork is used. This guide is unofficial and not affiliated with Rockstar Games.</p>
+</footer>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

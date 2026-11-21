@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; color: #241a2e; background: #fff7ef; }
+.hero { background: linear-gradient(135deg, #ff7a18 0%, #ff2d78 55%, #7b2ff7 100%); color: #fff; padding: 28px 24px 22px; }
+.hero h1 { margin: 6px 0; font-size: 38px; }
+.kicker { margin: 0; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; opacity: .9; }
+.sub { max-width: 760px; margin: 6px 0 16px; }
+.progress-wrap { max-width: 760px; }
+.progress-text { display: flex; justify-content: space-between; font-weight: bold; }
+.bar { height: 12px; background: rgba(255,255,255,.35); border-radius: 6px; overflow: hidden; margin-top: 6px; }
+#barfill { height: 100%; width: 0%; background: #ffe45e; }
+.bygrade { margin: 8px 0 0; font-size: 14px; }
+main { max-width: 1100px; margin: 0 auto; padding: 20px 24px 32px; }
+.roadmap { background: #fff; border: 1px solid #f0c9a8; border-radius: 10px; padding: 16px 20px; margin-bottom: 18px; }
+.roadmap h2, footer h2 { margin-top: 0; }
+.roadmap ol { margin: 8px 0; padding-left: 22px; }
+.roadmap li { margin: 6px 0; }
+.note { background: #fff3e0; padding: 10px 12px; border-radius: 8px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; background: #fff; border: 1px solid #eee; border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; }
+.controls label { font-size: 14px; }
+.controls input[type="search"], .controls select { padding: 6px 8px; font-size: 14px; }
+.controls button { padding: 7px 12px; font-size: 14px; background: #7b2ff7; color: #fff; border: 0; border-radius: 6px; cursor: pointer; }
+.import input { font-size: 12px; }
+.count { color: #666; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.card { background: #fff; border: 1px solid #e8e0d8; border-radius: 10px; padding: 14px; }
+.card.earned { border-color: #2e9e5b; background: #f2fbf5; }
+.card-head { display: flex; gap: 10px; align-items: flex-start; }
+.card-head input { width: 20px; height: 20px; margin-top: 2px; flex: none; }
+.card h3 { margin: 0; font-size: 17px; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 6px; }
+.badge { font-size: 12px; padding: 3px 8px; border-radius: 20px; background: #eee; text-transform: capitalize; }
+.badge.grade-platinum { background: #e8e8f0; color: #333; font-weight: bold; }
+.badge.grade-gold { background: #f5c542; }
+.badge.grade-silver { background: #d9d9d9; }
+.badge.grade-bronze { background: #e8b48a; }
+.badge.missable { background: #d32f2f; color: #fff; font-weight: bold; }
+.desc { font-style: italic; color: #555; margin: 6px 0; }
+.guide { margin: 6px 0; line-height: 1.45; }
+.sources { font-size: 12px; color: #777; margin: 8px 0 0; }
+footer { margin-top: 28px; border-top: 1px solid #ddd; padding-top: 14px; color: #555; font-size: 14px; line-height: 1.5; }
+@media (max-width: 640px) { .hero h1 { font-size: 28px; } main { padding: 14px; } }
